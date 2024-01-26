@@ -8,7 +8,9 @@ function StudentList(
     <ul>
       {filteredStudents.map((student, index) => (
         <li key={index}>
-          {student.name}-{student.age}-{student.grade}
+          <div>
+            {student.name}-{student.age}-{student.grade}
+          </div>
         </li>
       ))}
       {/* 여기에 학생 목록을 표시하는 로직을 작성하세요. */}
